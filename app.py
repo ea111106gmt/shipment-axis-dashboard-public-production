@@ -58,7 +58,7 @@ def public_data_signature() -> tuple[tuple[str, int, int], ...]:
 
 
 @st.cache_data(show_spinner=False)
-def cached_data(_signature: tuple[tuple[str, int, int], ...]):
+def cached_data(signature: tuple[tuple[str, int, int], ...]):
     return load_public_data()
 
 
