@@ -48,8 +48,17 @@ def load_css() -> None:
         st.markdown(f"<style>{STYLE_PATH.read_text(encoding='utf-8')}</style>", unsafe_allow_html=True)
 
 
+def public_data_signature() -> tuple[tuple[str, int, int], ...]:
+    data_dir = APP_DIR / "public_data"
+    signature = []
+    for filename in ("summary.json", "monthly_history.csv", "model_monthly.csv"):
+        stat = (data_dir / filename).stat()
+        signature.append((filename, stat.st_size, stat.st_mtime_ns))
+    return tuple(signature)
+
+
 @st.cache_data(show_spinner=False)
-def cached_data():
+def cached_data(_signature: tuple[tuple[str, int, int], ...]):
     return load_public_data()
 
 
@@ -230,7 +239,7 @@ def render_kpis(kpi: dict[str, Any], partial: bool) -> None:
 load_css()
 
 try:
-    data = cached_data()
+    data = cached_data(public_data_signature())
 except PublicDataSecurityError:
     st.error("SECURITY_FAIL")
     st.stop()
