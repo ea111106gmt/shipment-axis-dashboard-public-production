@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "scan_pass": true,
+  "allowlist_pass": true,
+  "generated_at": "2026-09-04 16:47",
+  "counts": {
+    "REAL_EXCEL": 0,
+    "UNC_PATH": 0,
+    "COMPANY_IP": 0,
+    "WINDOWS_ABSOLUTE_PATH": 0,
+    "WINDOWS_USERNAME": 0,
+    "SOURCE_FILE_NAME": 0,
+    "SOURCE_FILE_EXTENSION": 0,
+    "CREDENTIAL": 0,
+    "PRIVATE_KEY": 0,
+    "SECRETS_FILE": 0,
+    "PUBLIC_ALLOWLIST_FAIL": 0,
+    "REAL_VALUES_OUTSIDE_PUBLIC_DATA": 0,
+    "PUBLIC_CUSTOMER_LEAK": 0,
+    "PUBLIC_ORDER_AMOUNT_LEAK": 0,
+    "PUBLIC_ORDER_LEAK": 0,
+    "PUBLIC_PART_NUMBER_LEAK": 0,
+    "PUBLIC_INTERNAL_METADATA_LEAK": 0
+  },
+  "findings": []
+}

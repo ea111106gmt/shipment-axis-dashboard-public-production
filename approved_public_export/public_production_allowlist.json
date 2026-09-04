@@ -1,0 +1,47 @@
+{
+  "summary_fields": [
+    "report_year",
+    "report_month",
+    "monthly_shipment_axes",
+    "ytd_shipment_axes",
+    "shipment_days",
+    "avg_daily_shipment_axes",
+    "previous_month_axes",
+    "mom_percent",
+    "yoy_percent",
+    "data_period",
+    "generated_at"
+  ],
+  "monthly_history_fields": [
+    "year",
+    "month",
+    "shipment_axes"
+  ],
+  "model_history_fields": [
+    "year",
+    "month",
+    "model",
+    "shipment_axes"
+  ],
+  "disabled_exports": [
+    "customer",
+    "customer_name",
+    "customer_code",
+    "end_customer",
+    "order",
+    "order_number",
+    "sales_order",
+    "order_amount",
+    "amount",
+    "price",
+    "revenue",
+    "sales_amount",
+    "part_number",
+    "product_name",
+    "daily_raw_detail",
+    "raw_detail"
+  ],
+  "approved_exports": [
+    "model"
+  ]
+}

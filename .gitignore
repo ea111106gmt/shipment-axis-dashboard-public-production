@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+.streamlit/secrets.toml
+*.pyc
+.env
+.env.*
+credentials*
+token*
+secret*
+password*
