@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "scan_pass": true,
   "allowlist_pass": true,
-  "generated_at": "2026-09-04 16:47",
+  "generated_at": "2026-09-04 18:35",
   "counts": {
     "REAL_EXCEL": 0,
     "UNC_PATH": 0,
