@@ -1,13 +1,13 @@
 {
   "report_year": 2026,
   "report_month": 9,
-  "monthly_shipment_axes": 4563,
-  "ytd_shipment_axes": 36649,
-  "shipment_days": 13,
-  "avg_daily_shipment_axes": 351.0,
+  "monthly_shipment_axes": 4614,
+  "ytd_shipment_axes": 36700,
+  "shipment_days": 14,
+  "avg_daily_shipment_axes": 329.57,
   "previous_month_axes": 6896,
   "mom_percent": null,
   "yoy_percent": null,
   "data_period": "2026/09",
-  "generated_at": "2026-09-17 15:00"
+  "generated_at": "2026-09-18 15:00"
 }
